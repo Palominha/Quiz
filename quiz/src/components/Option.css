@@ -1,0 +1,47 @@
+:root{
+  --amarelo:#FFC100;
+  --amarelo-escuro:#B38700;
+  --cinza:#455A64;
+  --amarelo-claro:#FFE699;
+  --branco:#fff;
+  --preto:#000;
+  --cinza-escuro:#1c1c1c;
+  --cinza-padrao:#333;
+  --amarelo-mega-escuro:#806000;
+  --verde:#52f34c;
+}
+
+
+.option {
+  background-color: var(--amarelo);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  opacity: 0.6;
+  transition: 0.4s;
+}
+
+.option:hover {
+  opacity: 1;
+}
+
+#options-container .option p {
+  margin-bottom: 0;
+}
+
+.correct {
+  background-color: var(--verde);
+  font-weight: bold;
+}
+
+.wrong {
+  background-color: var(--amarelo);
+  opacity: 0.5;
+}
+
+.hide {
+  display: none;
+}
+
+
