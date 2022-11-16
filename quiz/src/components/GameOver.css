@@ -1,0 +1,32 @@
+:root{
+  --amarelo:#FFC100;
+  --amarelo-escuro:#B38700;
+  --cinza:#455A64;
+  --amarelo-claro:#FFE699;
+  --branco:#fff;
+  --preto:#000;
+  --cinza-escuro:#1c1c1c;
+  --cinza-padrao:#333;
+}
+
+
+#gameover {
+  text-align: center;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+#gameover h2,
+#gameover p {
+  margin-bottom: 1rem;
+}
+
+#gameover p {
+  color:var(--amarelo);
+}
+
+#gameover img {
+  margin: 2rem auto;
+  height: 300px;
+}

@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+}
+
+:root{
+  --amarelo:#FFC100;
+  --amarelo-escuro:#B38700;
+  --cinza:#455A64;
+  --amarelo-claro:#FFE699;
+  --branco:#fff;
+  --preto:#000;
+  --cinza-escuro:#1c1c1c;
+  --cinza-padrao:#333;
+  --amarelo-mega-escuro:#806000;
+  --verde:#52f34c;
+}
+
+
+body,
+html {
+  min-height: 100vh;
+  height: 100%;
+  background-color: var(--cinza-escuro);
+}
+
+img {
+  width: 100%;
+}
+
+button {
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1.2rem;
+  padding: 0.8em 1.8em;
+  background: linear-gradient(
+    90deg,
+    var(--amarelo-mega-escuro) 0%,
+    var(--amarelo)100%
+  );
+  border-radius: 3rem;
+  border: none;
+}
+
+button:hover {
+  background: linear-gradient(
+    90deg,
+    var(--amarelo) 0%,
+    var(--amarelo-mega-escuro)100%
+  );
+}

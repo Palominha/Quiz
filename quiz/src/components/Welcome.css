@@ -1,0 +1,29 @@
+:root{
+  --amarelo:#FFC100;
+  --amarelo-escuro:#B38700;
+  --cinza:#455A64;
+  --amarelo-claro:#FFE699;
+  --branco:#fff;
+  --preto:#000;
+  --cinza-escuro:#1c1c1c;
+  --cinza-padrao:#333;
+}
+
+
+#welcome {
+  text-align: center;
+  max-width: 500px;
+}
+
+#welcome h2,
+#welcome p {
+  margin-bottom: 1rem;
+}
+
+#welcome p {
+  color: var(--amarelo);
+}
+
+#welcome img {
+  margin-top: 1rem;
+}
